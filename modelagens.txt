@@ -1,0 +1,25 @@
+/* MOdelagem Básica */
+
+entidade = tabela
+campos = atributos
+
+Cliente
+
+nome: - caracter (30)
+cpf: - numérico (11)
+email: - caracter (30)
+telefone:- caracter (30)
+endereço: - caracter (100)
+sexo: - caracter (1)
+
+/* Processos de modelagem */
+
+/* Fase 01 e fase 02 */
+
+Modelagem conceitual - rascunho
+
+Modelagem lógica - qualquer programa de modelagem
+
+/* Dase 03 */
+
+Modelagem Física - scripts de banco
