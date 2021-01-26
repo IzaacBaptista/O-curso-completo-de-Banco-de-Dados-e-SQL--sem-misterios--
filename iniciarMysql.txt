@@ -1,0 +1,2 @@
+sudo mysql -u root -p
+22027200
