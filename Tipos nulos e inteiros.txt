@@ -1,6 +1,6 @@
 use projeto;
 
-/* Mostrando as tableas */
+/* Mostrando as tabelas */
 
 show tables;
 
