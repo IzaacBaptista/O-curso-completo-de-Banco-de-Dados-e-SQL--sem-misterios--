@@ -1,4 +1,4 @@
-/* MOdelagem Básica */
+/* Modelagem Básica */
 
 entidade = tabela
 campos = atributos

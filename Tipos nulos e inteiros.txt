@@ -39,7 +39,7 @@ INSERT INTO CLIENTE VALUES (
     'OSCAR CURY - BOM RETIRO - PATOS DE MINAS - MG'
 );
 
-/* Forma 02 - COlocando as colunas */
+/* Forma 02 - Colocando as colunas */
 
 INSERT INTO CLIENTE(
     NOME, 
