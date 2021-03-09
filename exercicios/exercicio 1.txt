@@ -1,0 +1,25 @@
+/* resolvendo exercicio*/
+
+CREATE DATABASE LIVRARIA;
+
+CREATE TABLE LIVROS(
+    LIVRO VARCHAR(100),
+    AUTOR VARCHAR(100),
+    SEXO CHAR(1),
+    PAGINAS INT(5),
+    EDITORA VARCHAR(30),
+    VALOR FLOAT(10,2),
+    UF CHAR(2),
+    ANO INT(4)
+);
+
+INSERT INTO LIVROS VALUES('Cavaleiro Real', 'Ana Claudia', 'F', 465, 'ATLAS', 49.9, 'RJ', 2009);
+INSERT INTO LIVROS VALUES('SQL para leigos', 'João Antunes', 'M', 450, 'ADDISON', 98, 'SP', 2018),
+                         ('Receitas Caseiras', 'Celia Tavares', 'F', 201, 'ATLAS', 45, 'RJ', 2008),
+                         ('Pessoas Efetivas', 'Eduardo Santos', 'M', 390, 'BETA', 78.99, 'RJ', 2018),
+                         ('Hábitos Saudáveis', 'Eduardo Santos', 'M', 630, 'BETA', 150.98, 'RJ', 2019),
+                         ('A Casa Marrom', 'Hermes Macedo', 'M', 250, 'BUBBA', 60, 'MG', 2016),
+                         ('Estacio Querido', 'Geraldo Francisco', 'M', 310, 'INSIGNIA', 100, 'ES', 2015),
+                         ('Pra Sempre Amigas', 'Leda Silva', 'F', 510, 'INSIGNIA', 78.98, 'ES', 2011),
+                         ('Copas Inesquecíveis', 'Marco Alcantara', 'M', 200, 'LARSON', 130.98, 'RS', 2018),
+                         ('O Poder da Mente', 'Clara Mafra', 'F', 120, 'CONTINENTAL', 56.58, 'SP', 2017);
