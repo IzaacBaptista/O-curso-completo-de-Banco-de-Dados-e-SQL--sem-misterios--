@@ -23,3 +23,23 @@ INSERT INTO LIVROS VALUES('SQL para leigos', 'João Antunes', 'M', 450, 'ADDISON
                          ('Pra Sempre Amigas', 'Leda Silva', 'F', 510, 'INSIGNIA', 78.98, 'ES', 2011),
                          ('Copas Inesquecíveis', 'Marco Alcantara', 'M', 200, 'LARSON', 130.98, 'RS', 2018),
                          ('O Poder da Mente', 'Clara Mafra', 'F', 120, 'CONTINENTAL', 56.58, 'SP', 2017);
+
+/*Trazer todos os dados*/
+
+SELECT * FROM LIVROS;
+
+/*Trazer o nome do livro e o nome da editora*/
+
+SELECT LIVRO, EDITORA FROM LIVROS;
+
+/*Trazer o nome do livro e a UF dos livros publicados por autores do sexo masculino*/
+
+SELECT LIVRO, UF FROM LIVROS WHERE SEXO LIKE 'M'; 
+
+SELECT AUTOR, SEXO, LIVRO, UF FROM LIVROS WHERE SEXO LIKE 'M';
+
+/*Trazer o nome do livro e número de páginas dos livros publicados por autores do sexo feminino*/
+
+SELECT LIVRO, PAGINAS FROM LIVROS WHERE SEXO LIKE 'F';
+
+SELECT AUTOR, SEXO, LIVRO, PAGINAS FROM LIVROS WHERE SEXO LIKE 'F';
