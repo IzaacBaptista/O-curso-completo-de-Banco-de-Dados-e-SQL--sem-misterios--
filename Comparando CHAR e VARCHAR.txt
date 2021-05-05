@@ -1,0 +1,15 @@
+CHAR não varia
+
+VARCHAR varia 
+
+ou seja um CHAR(10) e um VARCHAR(10) com o mesmo valor "Joao"
+
+CHAR continua usando usando os 10 bytes
+
+ja o VARCHAR usa apenas 4 bytes
+
+*O TIPO VARIA CONFORME O DADO*
+
+*PORÉM O CHAR É MAIS PERFORMATICO POR NÃO FICAR VARIANDO*
+
+*PARA CAMPOS TIPO SEXO OU UF QUE SÓ SE USA 1 E 2 CAMPOS, DEVE-SE USAR CHAR*
