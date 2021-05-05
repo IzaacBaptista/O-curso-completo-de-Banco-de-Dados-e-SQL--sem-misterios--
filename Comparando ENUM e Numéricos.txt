@@ -1,0 +1,11 @@
+- Conjunto fixo de dados
+- Conjunto de dados definidos
+- Conjunto delimitado de valores
+
+- Tipos numéricos
+- Float -> números reais
+- Int -> números inteiros
+
+- Quanto mais casas decimais, mais precisão
+
+- números que não precisam ser calculados, são definidos com VARCHAR. Pois não serão calculados (CPF, CNPJ)
